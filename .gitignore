@@ -1,0 +1,5 @@
+.gradle
+.idea
+build
+src/main/swift/.build
+src/main/swift/SampleAppCore.xcodeproj
