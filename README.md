@@ -1,11 +1,8 @@
-# Swift Kotlin Sample
+# Swift Kotlin Sample ![mac ci](https://github.com/andriydruk/swift-kotlin-sample/workflows/macOS/badge.svg)
 
-This is a small project for demonstrating binding Kotlin and Swift code in one project.
-Current implementation of binding builded on [Readdle's swift-java-codegen project](https://github.com/readdle/swift-java-codegen)).
+This is a small project for demonstrating binding Kotlin and Swift code in one project. The current implementation of binding is based on [Readdle's swift-java-codegen project](https://github.com/readdle/swift-java-codegen).
 
-https://github.com/andriydruk/swift-kotlin-sample/blob/main/.github/workflows/mac.yml
-
-### Mac ![mac ci](https://github.com/andriydruk/swift-kotlin-sample/workflows/macOS/badge.svg)
+### Mac
 
 Enviroment:
 * JDK 8+

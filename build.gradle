@@ -33,7 +33,6 @@ task swiftPackageUpdate(type: Exec) {
 compileJava.finalizedBy(swiftBuild)
 
 test {
-    println(file("${buildDir}/../src/main/swift/.build/debug").absolutePath)
     systemProperty "java.library.path", file("${buildDir}/../src/main/swift/.build/debug").absolutePath
 }
 
