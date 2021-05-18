@@ -47,7 +47,10 @@ class UIntTests {
     fun testMax() {
         try {
             Assert.assertEquals(UIntTest.testMax().toLong(), MAX_VALUE.toLong())
-            Assert.fail()
+            if (SwiftEnvironment.is64BitArch()) {
+                // Only on 64 bit arch there is not enough bytes to represent system UInt.max
+                Assert.fail();
+            }
         } catch (e: Exception) {
             Assert.assertTrue(e is SwiftRuntimeError)
             Assert.assertEquals(

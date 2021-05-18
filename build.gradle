@@ -1,6 +1,6 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
     id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
     id "org.jetbrains.kotlin.kapt" version "1.4.21"
 }
 
@@ -9,7 +9,6 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url "https://dl.bintray.com/readdle/maven" }
 }
 
 task swiftBuild(type: Exec) {
@@ -37,8 +36,8 @@ test {
 }
 
 dependencies {
-    kapt "com.readdle.swift.java.codegen:compiler:0.9.1"
-    implementation "com.readdle.swift.java.codegen:annotations:0.9.1"
+    kapt "com.readdle.swift.java.codegen:compiler:0.9.2"
+    implementation "com.readdle.swift.java.codegen:annotations:0.9.2"
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
 }
 
