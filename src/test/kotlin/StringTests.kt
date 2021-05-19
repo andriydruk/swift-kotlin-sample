@@ -1,7 +1,7 @@
-package com.readdle.swiftjava.sample
-
 import com.readdle.codegen.anotation.JavaSwift
 import com.readdle.codegen.anotation.SwiftRuntimeError
+import com.readdle.swiftjava.sample.StringEnum
+import com.readdle.swiftjava.sample.StringTest
 import com.readdle.swiftjava.sample.StringTest.*
 import com.readdle.swiftjava.sample.StringTest.Companion.testBlock
 import com.readdle.swiftjava.sample.StringTest.Companion.testDecode
@@ -14,6 +14,7 @@ import com.readdle.swiftjava.sample.StringTest.Companion.testProtocolOptionalPar
 import com.readdle.swiftjava.sample.StringTest.Companion.testProtocolOptionalReturnType
 import com.readdle.swiftjava.sample.StringTest.Companion.testProtocolParam
 import com.readdle.swiftjava.sample.StringTest.Companion.testProtocolReturnType
+import com.readdle.swiftjava.sample.StringTestStruct
 import com.readdle.swiftjava.sample.SwiftEnvironment.Companion.initEnvironment
 import org.junit.Assert
 import org.junit.Before
