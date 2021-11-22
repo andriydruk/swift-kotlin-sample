@@ -16,7 +16,15 @@ Clone project and run
 
 ### Linux
 
-Comming soon...
+Enviroment:
+* JDK 8+
+* Swift 5.4+
+
+Clone project and run
+
+```
+./gradlew test
+```
 
 ### Windows
 
