@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/readdle/CJavaVM.git",
         "state": {
           "branch": null,
-          "revision": "e4b172f024fffb30a157a9105390408f03a6de5f",
-          "version": "2.4.1"
+          "revision": "09fa7a913084e254ad398a1e7e41e9bdb7059270",
+          "version": "2.4.2"
         }
       },
       {
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/readdle/java_swift.git",
         "state": {
           "branch": "dev/kotlin-support",
-          "revision": "851dbb2e787169c435b574e435082f3410dbef96",
+          "revision": "07f41c3df163ad5d8e0c8e5745eb7a6bcb3d47cf",
           "version": null
         }
       },
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/readdle/swift-java-coder.git",
         "state": {
           "branch": "dev/kotlin-support",
-          "revision": "b708c7527a387e8c3830cf90d6e78a687078e0cf",
+          "revision": "1758dcd711d41b6784d84af2ca83815941f4d7b0",
           "version": null
         }
       }
